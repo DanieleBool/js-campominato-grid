@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main{
+    height: 100vmin;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px lightgray groove;
+    display: flex;
+    background-color: yellowgreen;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 8);
+    border: 2px outset lightgray;
+    color: yellow;
+}
+
+.box:active{
+    background-color: yellow;
+}
